@@ -1,0 +1,9 @@
+<dx-date-box
+    type="datetime"
+    [value]="now"
+    (onValueChanged)="onValueChanged($event)"
+    [disabledDates]="getDisabledDates"
+    [min]="minDate"
+    [max]="now">
+</dx-date-box>
+
