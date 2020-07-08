@@ -22,11 +22,11 @@ export class AppComponent {
       console.log(e.value);
   }
 
-  getDisabledDates(args): boolean {
-      const dayOfWeek = args.date.getDay();
-      const isWeekend = args.view === "month" && (dayOfWeek === 0 || dayOfWeek === 6 );
-      return isWeekend || this.isHoliday(args.date);
-  }
+    getDisabledDates(args): boolean {
+        const dayOfWeek = args.date.getDay();
+        const isWeekend = dayOfWeek === 0 || dayOfWeek === 6; 
+        return args.view === "month" && (isWeekend || this.isHoliday(args.date));
+    }
 
   isHoliday(date): boolean {
       for (let holiday of this.holidays) {

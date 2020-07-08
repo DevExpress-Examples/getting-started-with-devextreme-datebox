@@ -39,8 +39,8 @@ class App extends React.Component {
   
   getDisabledDates(args) {
     const dayOfWeek = args.date.getDay();
-    const isWeekend = args.view === "month" && (dayOfWeek === 0 || dayOfWeek === 6 );
-    return isWeekend || this.isHoliday(args.date);
+    const isWeekend = dayOfWeek === 0 || dayOfWeek === 6; 
+    return args.view === "month" && (isWeekend || isHoliday(args.date));
   }
 
   isHoliday(date) {
