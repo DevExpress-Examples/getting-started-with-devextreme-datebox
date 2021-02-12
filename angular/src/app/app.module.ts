@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { DxDateBoxModule } from 'devextreme-angular';
+import { DxDateBoxModule } from 'devextreme-angular/ui/date-box';
 
 import { AppComponent } from './app.component';
 
