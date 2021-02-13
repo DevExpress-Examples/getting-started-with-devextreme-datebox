@@ -52,7 +52,7 @@ export default {
     getDisabledDates(args) {
         const dayOfWeek = args.date.getDay();
         const isWeekend = dayOfWeek === 0 || dayOfWeek === 6; 
-        return args.view === "month" && (isWeekend || isHoliday(args.date));
+        return args.view === "month" && (isWeekend || this.isHoliday(args.date));
     },
     isHoliday(date) {
       for (let holiday of holidays) {
