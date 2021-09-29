@@ -1,3 +1,7 @@
+# Getting Started with DevExtreme React DateBox
+
+This repository stores React source code for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,4 +1,6 @@
-# GsDatebox
+# Getting Started with DevExtreme Angular DateBox
+
+This repository stores Angular source code for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.10.
 
