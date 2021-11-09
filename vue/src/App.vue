@@ -7,6 +7,8 @@
       :disabled-dates="getDisabledDates"
       :min="minDate"
       :max="now"
+      label="Select a date"
+      label-mode="floating"
     />
   </div>
 </template>
@@ -73,6 +75,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

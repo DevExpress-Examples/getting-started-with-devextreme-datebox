@@ -7,7 +7,6 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Getting started with DateBox';
   holidays: Date[];
   now: Date = new Date();
   minDate: Date = new Date(1900, 0, 1);

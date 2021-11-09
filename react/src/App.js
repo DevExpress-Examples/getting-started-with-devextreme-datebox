@@ -1,4 +1,3 @@
-import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
 import React from 'react';
 import './App.css';
@@ -70,6 +69,8 @@ class App extends React.Component {
           disabledDates={this.getDisabledDates}
           min={this.minDate}
           max={this.now}
+          label="Select a date"
+          labelMode="floating"
         />
       </div>
     );    

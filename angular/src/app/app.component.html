@@ -3,6 +3,8 @@
     [value]="now"
     (onValueChanged)="onValueChanged($event)"
     [disabledDates]="getDisabledDates"
+    label="Select a date"
+    labelMode="floating"
     [min]="minDate"
     [max]="now">
 </dx-date-box>
