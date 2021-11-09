@@ -69,7 +69,7 @@ class App extends React.Component {
           disabledDates={this.getDisabledDates}
           min={this.minDate}
           max={this.now}
-          label="Select a date"
+          label="Date and time"
           labelMode="floating"
         />
       </div>

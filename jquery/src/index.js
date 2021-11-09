@@ -28,7 +28,7 @@ $(function() {
             console.log(data.value);
             console.log(data.previousValue);
         },
-        label: "Select a date",
+        label: "Date and time",
         labelMode: "floating",
         disabledDates: function(args) {
             const dayOfWeek = args.date.getDay();

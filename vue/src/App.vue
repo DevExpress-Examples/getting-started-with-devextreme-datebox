@@ -7,7 +7,7 @@
       :disabled-dates="getDisabledDates"
       :min="minDate"
       :max="now"
-      label="Select a date"
+      label="Date and time"
       label-mode="floating"
     />
   </div>
