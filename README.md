@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # DevExtreme DateBox - Getting Started 
 
-This repository stores the code examples of the DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure basic DateBox features.
+This repository stores the code examples of the DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure the basic DateBox features.
 
 <div align="center"><img src="./datebox.png" /></div>
 

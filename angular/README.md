@@ -1,6 +1,6 @@
 # DevExtreme Angular DateBox - Getting Started
 
-This repository stores the code examples of the Angular DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure basic DateBox features.
+This repository stores the code examples of the Angular DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure the basic DateBox features.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.10.
 

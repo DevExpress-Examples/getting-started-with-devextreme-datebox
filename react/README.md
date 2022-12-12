@@ -1,6 +1,6 @@
 # DevExtreme React DateBox - Getting Started 
 
-This repository stores the code examples of the React DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure basic DateBox features.
+This repository stores the code examples of the React DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure the basic DateBox features.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
