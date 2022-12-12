@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme jQuery DateBox
+# DevExtreme jQuery DateBox - Getting Started 
 
-This repository stores jQuery source code for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial.
+This repository stores the code examples of the jQuery DateBox component for the [Getting Started with DateBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateBox/Getting_Started_with_DateBox/) tutorial. DateBox is a UI component that allows users to set a certain date, time, or date/time combination. This tutorial shows how to configure the basic DateBox features.
 
 ## Installation
 
