@@ -1,0 +1,11 @@
+<dx-date-box
+    type="datetime"
+    [value]="now"
+    (onValueChanged)="onValueChanged($event)"
+    [disabledDates]="getDisabledDates"
+    label="Date and time"
+    labelMode="floating"
+    [min]="minDate"
+    [max]="now">
+</dx-date-box>
+
