@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
+import DateBoxContent from './components/DateBoxContent.vue';
 </script>
 
 <template>
   <div class="main">
-    <RouterView/>
+    <DateBoxContent/>
   </div>
 </template>
+
+<style scoped>
+.main {
+  padding: 20px;
+}
+</style>

@@ -1,3 +1,11 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
-</div>
+<dx-date-box
+  type="datetime"
+  [value]="now"
+  (onValueChanged)="onValueChanged($event)"
+  [disabledDates]="getDisabledDates"
+  label="Date and time"
+  labelMode="floating"
+  [min]="minDate"
+  [max]="now"
+>
+</dx-date-box>
