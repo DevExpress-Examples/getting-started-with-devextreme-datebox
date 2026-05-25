@@ -21,12 +21,6 @@ function App(): JSX.Element {
     setDateBoxValue(e.value);
   }, []);
 
-  const getDisabledDates = useCallback((args: DisabledDateArgs): boolean => {
-    const dayOfWeek = args.date.getDay();
-    const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
-    return args.view === 'month' && (isWeekend || isHoliday(args.date));
-  }, []);
-
   const isHoliday = useCallback((date: Date): boolean => {
     for (const holiday of holidays) {
       if (date.getDate() === holiday.getDate() && date.getMonth() === holiday.getMonth()) {
@@ -35,6 +29,12 @@ function App(): JSX.Element {
     }
     return false;
   }, []);
+
+  const getDisabledDates = useCallback((args: DisabledDateArgs): boolean => {
+    const dayOfWeek = args.date.getDay();
+    const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+    return args.view === 'month' && (isWeekend || isHoliday(args.date));
+  }, [isHoliday]);
 
   return (
     <div className="app">
