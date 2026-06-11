@@ -25,8 +25,8 @@ $(() => {
     max: now,
     min: new Date(1900, 0, 1),
     onValueChanged(data) {
-      console.log(data.value); // eslint-disable-line no-console
-      console.log(data.previousValue); // eslint-disable-line no-console
+      console.log(data.value);
+      console.log(data.previousValue);
     },
     label: 'Date and time',
     labelMode: 'floating',
