@@ -8,8 +8,8 @@ const now = new Date();
 const minDate = new Date(1900, 0, 1);
 
 function onValueChanged(e: DxDateBoxTypes.ValueChangedEvent): void {
-  console.log(e.previousValue); // eslint-disable-line no-console
-  console.log(e.value); // eslint-disable-line no-console
+  console.log(e.previousValue);
+  console.log(e.value);
 }
 
 function getDisabledDates(args: DisabledDateArgs): boolean {

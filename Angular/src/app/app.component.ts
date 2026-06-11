@@ -28,8 +28,8 @@ export class AppComponent {
   }
 
   onValueChanged(e: DxDateBoxTypes.ValueChangedEvent): void {
-    console.log(e.previousValue); // eslint-disable-line no-console
-    console.log(e.value); // eslint-disable-line no-console
+    console.log(e.previousValue);
+    console.log(e.value);
   }
 
   getDisabledDates(args: DisabledDateArgs): boolean {

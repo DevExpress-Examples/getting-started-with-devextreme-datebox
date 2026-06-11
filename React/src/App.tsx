@@ -16,8 +16,8 @@ function App(): JSX.Element {
   const [dateBoxValue, setDateBoxValue] = useState<Date>(now);
 
   const onValueChanged = useCallback((e: DateBoxTypes.ValueChangedEvent) => {
-    console.log(e.previousValue); // eslint-disable-line no-console
-    console.log(e.value); // eslint-disable-line no-console
+    console.log(e.previousValue);
+    console.log(e.value);
     setDateBoxValue(e.value);
   }, []);
 
