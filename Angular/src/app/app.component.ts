@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { DxDateBoxTypes } from 'devextreme-angular/ui/date-box';
 import { AppService } from './app.service';
 
@@ -13,6 +13,7 @@ import { DxDateBoxModule } from 'devextreme-angular/ui/date-box';
     selector: 'app-root',
     imports: [DxDateBoxModule],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
